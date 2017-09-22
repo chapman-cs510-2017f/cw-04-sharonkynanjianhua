@@ -1,6 +1,6 @@
 # CS510 CW 4
 
-**Author(s):** **CHANGEME**
+**Author(s):** **Sharon, Kyann, Jianhua**
 
 [![Build Status](https://travis-ci.org/chapman-cs510-2017f/cw-04-YOURNAME.svg?branch=master)](https://travis-ci.org/chapman-cs510-2017f/cw-04-YOURNAME)
 
@@ -24,7 +24,9 @@ Complete the following exercises, saving your solutions in the indicated files. 
 
 Analyze in this section what you found useful about this assignment in your own words. Include any lingering questions or comments that you may have.
 
-**CHANGEME**
+1. Generator is very powerful, make the coding fun.
+2. Good Algorithm: faster, lesser code, simpler.
+3. Jupter note makes reading code and design thought easier, especially when algorithm is complicated or designing large program, or need to collaborate with others. 
 
 ## Honor Pledge
 
@@ -32,7 +34,8 @@ I pledge that all the work in this repository is my own with only the following 
 
 * Content of starter files supplied by the instructor;
 * Code borrowed from another source, documented with correct attribution in the code and summarized here.
+Generator function borrowed from other groups.
 
 Signed,
 
-**YOURNAME**
+**Jianhua Li**
