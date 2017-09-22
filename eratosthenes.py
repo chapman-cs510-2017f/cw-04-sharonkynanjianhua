@@ -22,8 +22,8 @@ def eratosthenes(n):
         if i%2 != 0: #remove all multiples of 2
             listRM.append(i) 
         
-    print("original list")
-    print(listRM)
+    #print("original list")
+    #print(listRM)
   
     idxList = len(listRM)
     lenList = len(listRM) 
@@ -47,11 +47,10 @@ def eratosthenes(n):
         
         idxList -= 1
         largestNum = listRM[idxList-1]
-        print("largest number ")
-        print(largestNum)
+        #print("largest number ")
+        #print(largestNum)
     
-    print("final list")
-    print(listRM)    
+    #print("all prime numbers smaller than " +str(n)+" is:")
+    #print(listRM)    
     return listRM
 
-eratosthenes(33)

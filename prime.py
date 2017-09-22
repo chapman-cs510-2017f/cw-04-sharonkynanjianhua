@@ -1,6 +1,29 @@
 #!/usr/bin/env python3
 import eratosthenes
 
+def prime_check(Num, primeList):
+    """checking if Num is a prime by divided the element in previous primelist"""
+    for primeNum in primeList:
+        if Num % primeNum == 0:
+            return False
+        return True
+
+
+def gen_eratosthenes():
+    """
+    generate prime number
+    """
+    primeList = []
+    num = 2
+    while True:
+        primeList.append(num)
+        yield num
+        num = num + 1
+        while prime_check(num, primeList) == False:
+            num = num + 1
+
+    
+
 def main(local_argv):
     """
     local_argv is the argument list, progrom name is first arugment
@@ -9,11 +32,16 @@ def main(local_argv):
     """
    
     if len(local_argv) != 2:
-        print("must add one and only one command argument ")
+        print("must add one and only one command argument, , exit ")
         return
 
         
     argument_n = int(local_argv[1]) #remember, this is the 2nd argument in command line
+    
+    if argument_n <= 0:
+        print("please input an pistive interger number, exit")
+        return
+
     retList =eratosthenes.eratosthenes(argument_n)
 
     return retList
@@ -32,4 +60,5 @@ if __name__ == "__main__":
     # The getopt module may also be helpful for more ambitious programs.
     import sys
     main(sys.argv)
+    
     
