@@ -1,6 +1,6 @@
 # CS510 CW 4
 
-**Author(s):** **Sharon, Kyann, Jianhua**
+**Author(s):** **Sharon, Kynan, Jianhua**
 
 [![Build Status](https://travis-ci.org/chapman-cs510-2017f/cw-04-YOURNAME.svg?branch=master)](https://travis-ci.org/chapman-cs510-2017f/cw-04-YOURNAME)
 
@@ -24,9 +24,10 @@ Complete the following exercises, saving your solutions in the indicated files. 
 
 Analyze in this section what you found useful about this assignment in your own words. Include any lingering questions or comments that you may have.
 
-1. Generator is very powerful, make the coding fun.
-2. Good Algorithm: faster, lesser code, simpler.
-3. Jupter note makes reading code and design thought easier, especially when algorithm is complicated or designing large program, or need to collaborate with others. 
+**
+1. The generator + yield is very powerful, and makes the coding fun. 
+2. This classwork showed us how we can create an algorithm that "does the job" but with the right tools, it can be improved on. A Good Algorithm=faster, lesser code, simpler. Overall, an efficent code means a better code.
+3. The Jupyter notebook makes reading code and design thought easier, especially when the algorithm is complicated and you want to test one part of the code. It is also useful when designing a large program, and when you need to collaborate with others. **
 
 ## Honor Pledge
 
@@ -34,8 +35,7 @@ I pledge that all the work in this repository is my own with only the following 
 
 * Content of starter files supplied by the instructor;
 * Code borrowed from another source, documented with correct attribution in the code and summarized here.
-Generator function borrowed from other groups.
 
 Signed,
 
-**Jianhua Li**
+**Jianhua Li, Sharon Kim, Kynan Barton**
