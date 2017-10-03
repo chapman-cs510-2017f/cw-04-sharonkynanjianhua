@@ -2,7 +2,7 @@
 
 **Author(s):** **Sharon, Kynan, Jianhua**
 
-[![Build Status](https://travis-ci.org/chapman-cs510-2017f/cw-04-YOURNAME.svg?branch=master)](https://travis-ci.org/chapman-cs510-2017f/cw-04-YOURNAME)
+[![Build Status](https://travis-ci.org/chapman-cs510-2017f/cw-04-sharonkynanjianhua.svg?branch=master)](https://travis-ci.org/chapman-cs510-2017f/cw-04-sharonkynanjianhua)
 
 ## Specification
 
